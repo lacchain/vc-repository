@@ -1,0 +1,23 @@
+{
+    "@context": [{
+      "@version": 1.1
+    },"https://www.w3.org/ns/odrl.jsonld", {
+      "lac": "http://id.lacchain.net/",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+
+      "vaccine": {"@id": "lac:vaccine", "@type": "rdf:HTML"},
+      "name": "lac:name",
+      "birthDate": "lac:birthDate",
+      "sex": "lac:sex",
+      "prophylaxis": "lac:prophylaxis",
+      "brand": "lac:brand",
+      "manufacturer": "lac:manufacturer",
+      "authorization": "lac:authorization",
+      "batch": "lac:batch",
+      "dose": "lac:dose",
+      "country": "lac:country",
+      "administeringCentre": "lac:administeringCentre",
+      "worker": "lac:worker",
+      "disease": "lac:disease"
+    }]
+  }

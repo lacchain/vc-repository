@@ -1,0 +1,23 @@
+{
+  "@context": [{
+    "@version": 1.1
+  },"https://www.w3.org/ns/odrl.jsonld", {
+    "lac": "http://id.lacchain.net/",
+    "schema": "http://schema.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+
+    "holds": {"@id": "schema:holds", "@type": "rdf:HTML"},
+    "givenName": "schema:givenName",
+    "familyName": "schema:familyName",
+    "email": "schema:email",
+    "category": "lac:category",
+    "industry": "lac:industry",
+    "skillset": "lac:skillset",
+    "course": "lac:course",
+    "description": "lac:description",
+    "url": "lac:url",
+    "duration": "lac:duration",
+    "modality": "lac:modality",
+    "location": "lac:location"
+  }]
+}
