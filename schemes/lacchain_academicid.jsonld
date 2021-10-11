@@ -1,0 +1,27 @@
+{
+  "@context":
+  {
+     "Person": "http://xmlns.com/foaf/0.1/Person",
+     "xsd": "http://www.w3.org/2001/XMLSchema#",
+     "lac": "http://id.lacchain.net/",
+     "ucn": "lac:ucn",
+     "firstName": "http://schema.org/givenName",
+     "middleName": "http://schema.org/additionalName",
+     "lastName": "http://schema.org/familyName",
+     "email": "http://schema.org/email",
+     "dateOfBirth":
+     {
+        "@id": "http://schema.org/birthDate",
+        "@type": "xsd:date"
+     },
+     "underage": "http://schema.org/requiredMinAge",
+     "gender": "http://schema.org/gender",
+     "guardians": "lac:guardians",
+     "photoUrl": 
+     {
+      "@id": "http://schema.org/url",
+      "@type": "@id"
+     },
+     "photoUrlSign": "lac:photoUrlSign"
+  }
+}
