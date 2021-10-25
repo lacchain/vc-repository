@@ -23,3 +23,14 @@
   [lacchain_vaccination.json](./examples/lacchain_vaccination.json)
 
 ---
+
+- ### LACChain Academic ID
+  Verifiable credential that certifies a student person. This verifiable credencial aims to be a VC that identifies students and, it should be issued by academic institutions.
+  #### Author:
+  IZERTIS
+  #### Scheme URL:
+  [lacchain_academicid.jsonld](./schemes/lacchain_academicid.jsonld)
+  #### Example:
+  [lacchain_academicid.json](./examples/lacchain_academicid.json)
+
+---
