@@ -1,30 +1,45 @@
 {
 	"@context": [
 		"https://www.w3.org/2018/credentials/v1",
-		"https://github.com/lacchain/vc-repository/blob/main/schemes/lacchain_academicid.jsonld"
+		"https://credentials-library.lacchain.net/credentials/security/trusted/v1",
+		"https://raw.githubusercontent.com/lacchain/vc-repository/main/schemes/lacchain_academicid.json"
 	],
-	"id": "d49ec380-49eb-474f-8128-a572e8b29278",
+	"id": "urn:uuid:eea3747f-99a8-4a2f-b42e-3bdf32b8a11d",
 	"type": [
 		"VerifiableCredential",
+		"TrustedCredential",
 		"VerifiableAcademicID"
 	],
 	"issuer": "did:ethr:lacchain:0xadf1702b76419f428014d1386af487b2d8145f83",
+	"holder": "did:lac:main:0xE2341a8d4728A087861d3Cff796aF6Ef13120A14",
 	"issuanceDate": "2020-10-21T15:49:00.057Z",
 	"expirationDate": "2025-10-21T15:49:00.057Z",
 	"credentialSubject": {
-		"id": "did:ethr:lacchain:0x48007072061dc756e5a2ecf15cf2c2bcc091de52",
-		"ucn": "012345ABCDE",
-		"firstName": "George",
-		"middleName": "Walch",
-		"lastName": "Smith",
-		"email": "gw@town.org",
-		"dateOfBirth": "1993-01-21T00:00:00.000Z",
-		"underAge": 18,
-		"gender": "female",
-		"guardians": "undefined",
-		"photoUrl": "https://cxc.example.com/",
-		"photoUrlSign": "abcdef1234"
+	  "typeClass": "AcademicID",
+	  "personIdentifier": "17511159V",
+	  "currentFirstName": "Jhon",
+	  "currentMiddleName": "Doe",
+	  "currentLastName": "Smith",
+	  "dateOfBirth": "2022-02-07T09:42:15.981Z",
+	  "placeOfBirth": "Jamaica",
+	  "gender": "male",
+	  "ucn": "111",
+	  "photoUrl": "https://previews.123rf.com/images/stylephotographs/stylephotographs2001/stylephotographs200100234/137444471-biometric-passport-photo-of-a-young-serious-blond-woman.jpg",
+	  "photoSignature": "26499 fd8b",
+	  "guardian": [
+		{
+		  "id": "did:example:ebfeb1c276e12ec211f712ebc6f",
+		  "type": "Mother"
+		},
+		{
+		  "id": "did:example:ebebfeb1c276e12ec211f712ebc6a",
+		  "type": "Father"
+		}
+	  ],
+	  "id": "did:lac:main:0xE2341a8d4728A087861d3Cff796aF6Ef13120A14",
+	  "underAge": 18
 	},
+	"trustedList": "0x3102e6CA32B5241727d5d0099219aA3B19e65C51",
 	"credentialStatus": {
 		"id": "0x4185Dab0662ccDa3D3F35779578a4242bb89Db37",
 		"type": "SmartContract"
