@@ -23,3 +23,14 @@
   [lacchain_vaccination.json](./examples/lacchain_vaccination.json)
 
 ---
+
+- ### LACChain Digital Diploa
+  Verifiable credential that certifies a digital diploma.
+  #### Author:
+  IZERTIS
+  #### Scheme URL:
+  [lacchain_digitaldiploma.json](./schemes/lacchain_digitaldiploma.json)
+  #### Example:
+  [lacchain_digitaldiploma.json](./examples/lacchain_digitaldiploma.json)
+
+---
