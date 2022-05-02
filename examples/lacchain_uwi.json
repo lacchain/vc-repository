@@ -1,0 +1,36 @@
+{
+	"@context": [
+	"https://www.w3.org/2018/credentials/v1",
+	"https://id.lacchain.net/credentials/education/wd/course-diploma/v1"
+	],
+	"type": [ 
+		"VerifiableCredential", 
+		"DigitalCourseDiploma",
+		"REM_UNIQUE_VC_CODE" 
+	],
+	"id": "system_credential_uuid",
+	"issuer": "system_issuerdid",
+	"issuanceDate": "system_issuance_date",
+	"expirationDate": "system_expiration_date",
+	"credentialSubject": {
+		"id": "system_userdid",
+		"givenName": "personal_info_given_name personal_info_middle_name",
+		"familyName": "personal_info_family_names",
+		"email": "personal_info_email"
+	},
+	"holds": {
+		"studentId": "course_info_student_id",
+		"category": "course_info_category",
+		"course": "course_info_course_name",
+		"courseType": "course_info_course_type",
+		"description": "course_info_description",
+		"contactHours":"course_info_contact_hours",
+		"ceu": "course_info_ceu",
+		"modality": "course_info_modality",
+		"url": "course_info_url",
+		"educationalInstitution": "course_info_educational_institution",
+		"campusName": "course_info_campus_name",
+		"location":"course_info_location"
+	},
+	"proof": {}
+}

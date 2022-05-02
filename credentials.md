@@ -34,3 +34,11 @@
   [lacchain_academicid.json](./examples/lacchain_academicid.json)
 
 ---
+
+- ### LACChain University of West Indies (UWI) Academic
+  Verifiable credential for UWI academic courses and diplomas.
+  #### Author: World Data
+  LACChain
+  #### Scheme URL: --
+  #### Example:
+  [lacchain_uwi.json](./examples/lacchain_uwi.json)
