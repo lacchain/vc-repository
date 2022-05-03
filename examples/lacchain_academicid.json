@@ -1,0 +1,55 @@
+{
+	"@context": [
+		"https://www.w3.org/2018/credentials/v1",
+		"https://credentials-library.lacchain.net/credentials/security/trusted/v1",
+		"https://raw.githubusercontent.com/lacchain/vc-repository/main/schemes/lacchain_academicid.json"
+	],
+	"id": "urn:uuid:eea3747f-99a8-4a2f-b42e-3bdf32b8a11d",
+	"type": [
+		"VerifiableCredential",
+		"TrustedCredential",
+		"VerifiableAcademicID"
+	],
+	"issuer": "did:ethr:lacchain:0xadf1702b76419f428014d1386af487b2d8145f83",
+	"holder": "did:lac:main:0xE2341a8d4728A087861d3Cff796aF6Ef13120A14",
+	"issuanceDate": "2020-10-21T15:49:00.057Z",
+	"expirationDate": "2025-10-21T15:49:00.057Z",
+	"credentialSubject": {
+	  "typeClass": "AcademicID",
+	  "personIdentifier": "17511159V",
+	  "currentFirstName": "Jhon",
+	  "currentMiddleName": "Doe",
+	  "currentLastName": "Smith",
+	  "dateOfBirth": "2022-02-07T09:42:15.981Z",
+	  "placeOfBirth": "Jamaica",
+	  "gender": "male",
+	  "ucn": "111",
+	  "photoUrl": "https://previews.123rf.com/images/stylephotographs/stylephotographs2001/stylephotographs200100234/137444471-biometric-passport-photo-of-a-young-serious-blond-woman.jpg",
+	  "photoSignature": "26499 fd8b",
+	  "guardian": [
+		{
+		  "id": "did:example:ebfeb1c276e12ec211f712ebc6f",
+		  "type": "Mother"
+		},
+		{
+		  "id": "did:example:ebebfeb1c276e12ec211f712ebc6a",
+		  "type": "Father"
+		}
+	  ],
+	  "id": "did:lac:main:0xE2341a8d4728A087861d3Cff796aF6Ef13120A14",
+	  "underAge": 18
+	},
+	"trustedList": "0x3102e6CA32B5241727d5d0099219aA3B19e65C51",
+	"credentialStatus": {
+		"id": "0x4185Dab0662ccDa3D3F35779578a4242bb89Db37",
+		"type": "SmartContract"
+	},
+	"proof": {
+		"type": "EcdsaSecp256k1Signature2019",
+		"created": "2021-09-13T12:19:13.939Z",
+		"proofPurpose": "assertionMethod",
+		"verificationMethod": "0x7a746D34754C14EB3eb1F214BD0EA23a1A18Be7A",
+		"nonce": "7325021f-e8d7-4ffd-8693-34c3efb751f3",
+		"proofValue": "0x0b8d75810bf30fd221ddd6892e9e50b1c63240aba4767a9af2bfb8d8e5944e7b169f78d99f3174055de5a7fcbb65d1367c900a19302c5409a01d77339001d7181b"
+	}
+}

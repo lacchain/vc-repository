@@ -34,3 +34,22 @@
   [lacchain_digitaldiploma.json](./examples/lacchain_digitaldiploma.json)
 
 ---
+=======
+- ### LACChain Academic ID
+  Verifiable credential that certifies a student person. This verifiable credencial aims to be a VC that identifies students and, it should be issued by academic institutions.
+  #### Author:
+  IZERTIS
+  #### Scheme URL:
+  [lacchain_academicid.json](./schemes/lacchain_academicid.json)
+  #### Example:
+  [lacchain_academicid.json](./examples/lacchain_academicid.json)
+
+---
+
+- ### LACChain University of West Indies (UWI) Academic
+  Verifiable credential for UWI academic courses and diplomas.
+  #### Author: World Data
+  LACChain
+  #### Scheme URL: --
+  #### Example:
+  [lacchain_uwi.json](./examples/lacchain_uwi.json)
