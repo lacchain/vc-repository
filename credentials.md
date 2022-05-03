@@ -24,6 +24,17 @@
 
 ---
 
+- ### LACChain Digital Diploa
+  Verifiable credential that certifies a digital diploma.
+  #### Author:
+  IZERTIS
+  #### Scheme URL:
+  [lacchain_digitaldiploma.json](./schemes/lacchain_digitaldiploma.json)
+  #### Example:
+  [lacchain_digitaldiploma.json](./examples/lacchain_digitaldiploma.json)
+
+---
+=======
 - ### LACChain Academic ID
   Verifiable credential that certifies a student person. This verifiable credencial aims to be a VC that identifies students and, it should be issued by academic institutions.
   #### Author:

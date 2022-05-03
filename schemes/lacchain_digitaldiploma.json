@@ -1,0 +1,24 @@
+{
+    "@context":
+    {
+       "xsd": "http://www.w3.org/2001/XMLSchema#",
+       "lac": "http://id.lacchain.net/",
+       "schema": "http://schema.org/",
+       "examYear": "lac:year",
+       "examSession": "lac:examSession",
+       "examSessionDescription": "lac:examSessionDescription",
+       "ddTypeID": "lac:ddTypeID",
+       "ucn": "lac:ucn",
+       "subject": {"@id": "lac:subjectDef", "@type": "@id", "@container": "@graph"},
+       "subjectDef": {
+         "centreCode": "lac:centreCode",
+         "centreName": "lac:centreName",
+         "territoryName": "lac:territoryName",
+         "candidateNumber": "lac:candidateNumber",
+         "subjectCode": "lac:subjectCode",
+         "subjectName": "lac:subjectName",
+         "overallGrade": "lac:overallGrade",
+         "profileGrade": {"@id": "lac:profileGrade", "@type": "@id", "@container": "@graph"}
+       }
+    }
+  }

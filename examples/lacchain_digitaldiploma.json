@@ -1,0 +1,62 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://credentials-library.lacchain.net/credentials/security/trusted/v1",
+        "https://raw.githubusercontent.com/lacchain/vc-repository/main/schemes/lacchain_digitaldiploma.json"
+      ],
+      "id": "http://cxc.tld/credentials/3732",
+      "type": [
+        "VerifiableCredential",
+        "TrustedCredential", 
+        "DigitalDiploma"
+      ],
+      "issuer": "did:lac:main:0x1cA25f005fD05854D8F9C6248DCB1FF11488Bffb",
+      "issued": "2021-10-21T11:20:48.977Z",
+      "issuanceDate": "2021-10-21T11:20:48.977Z",
+        "expirationDate": "2023-10-21T11:20:48.977Z",
+      "validFrom": "2021-10-21T11:20:48.977Z",
+      "validUntil": "2023-10-21T11:20:48.977Z",
+      "credentialSubject": {
+        "id": "did:lac:main:0x477b6Fd832697f902e5d098866f31c6107084aCD",
+        "examYear": "2021",
+        "examSession": "202106",
+        "examSessionDescription": "2021 JUNE CSEC",
+        "ddTypeID": "CSEC",
+        "ucn": "20210000015",
+        "subject": [
+          {                
+            "centreCode": "030008",
+            "centreName": "Combermere School",
+            "territoryName": "Barbados",
+            "candidateNumber": "20210000015",
+            "subjectCode": "01207",
+            "subjectName": "Chemistry",
+            "overallGrade": "II",
+            "profile1Grades": [ "BBB"]
+          },
+          {                
+            "centreCode": "030008",
+            "centreName": "Combermere School",
+            "territoryName": "Barbados",
+            "candidateNumber": "20210000015",
+            "subjectCode": "01207",
+            "subjectName": "Chemistry",
+            "overallGrade": "II",
+            "profile1Grades": "BBB"
+          }
+        ]
+      },
+      "trustedList": "0x3102e6CA32B5241727d5d0099219aA3B19e65C51",
+      "credentialStatus": {
+            "id": "0x4185Dab0662ccDa3D3F35779578a4242bb89Db37",
+            "type": "SmartContract"
+        },
+      "proof": {
+        "type": "EcdsaSecp256k1Signature2019",
+        "created": "2021-10-21T11:20:48.977Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:lac:main:0x1cA25f005fD05854D8F9C6248DCB1FF11488Bffb#vm-0",
+        "nonce": "fcd51bb0-2a64-4811-8bae-443ae85d8844",
+        "proofValue": "vynkFciMxt4ykBlatmm0LdIHMFmYpCuyoXxyknLTDOQvK0fH+D+RdUYWLeFsPG5Wx2trKYor2CWGcp00n+Uj0hs="
+      }
+    }
