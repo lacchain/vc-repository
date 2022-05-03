@@ -1,0 +1,21 @@
+{
+   "@context":
+   {
+      "Person": "http://xmlns.com/foaf/0.1/Person",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "lac": "http://id.lacchain.net/",
+      "ucn": "lac:ucn",
+      "typeClass": "lac:typeClass",
+      "personIdentifier": "lac:personIdentifier",
+      "currentFirstName": "https://schema.org/givenName",
+      "currentMiddleName": "https://schema.org/additionalName",
+      "currentLastName": "https://schema.org/familyName",
+      "dateOfBirth":{"@id": "https://schema.org/birthDate","@type": "xsd:date"},
+      "placeOfBirth": "https://schema.org/birthPlace",
+      "underAge": "https://schema.org/requiredMinAge",
+      "gender": "https://schema.org/gender",
+      "guardian": {"@id": "lac:guardian", "@type": "@id", "@container": "@graph"},
+      "photoUrl": {"@id": "https://schema.org/url","@type": "@id"},
+      "photoSignature": "lac:photoSignature"
+   }
+ }

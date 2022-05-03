@@ -29,7 +29,7 @@
   #### Author:
   IZERTIS
   #### Scheme URL:
-  [lacchain_academicid.jsonld](./schemes/lacchain_academicid.jsonld)
+  [lacchain_academicid.json](./schemes/lacchain_academicid.json)
   #### Example:
   [lacchain_academicid.json](./examples/lacchain_academicid.json)
 
