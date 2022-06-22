@@ -1,0 +1,75 @@
+{
+	"@context": {
+		"@version": 1.1,
+		"@protected": true,
+		"id": "@id",
+		"type": "@type",
+		"description": "http://schema.org/description",
+		"identifier": "http://schema.org/identifier",
+		"name": "http://schema.org/name",
+		"image": "http://schema.org/image",
+		"EducationCertificate": {
+			"@id": "https://credentials-library.lacchain.net/credentials/education#EducationCertificate",
+			"@context": {
+				"@version": 1.1,
+				"@protected": true,
+				"id": "@id",
+				"type": "@type",
+				"description": "http://schema.org/description",
+				"identifier": "http://schema.org/identifier",
+				"name": "http://schema.org/name",
+				"image": "http://schema.org/image"
+			}
+		},
+		"Diploma": {
+			"@id": "https://credentials-library.lacchain.net/credentials/education/redclara/diploma/v1#Diploma",
+			"@context": {
+				"@version": 1.1,
+				"@protected": true,
+				"id": "@id",
+				"type": "@type",
+				"attendant": {
+					"@id": "https://credentials-library.lacchain.net/credentials/education/redclara/diploma/v1#attendant",
+					"@type": "https://credentials-library.lacchain.net/credentials/education#Attendant"
+				},
+				"diploma": {
+					"@id": "https://credentials-library.lacchain.net/credentials/education#diploma",
+					"@type": "https://credentials-library.lacchain.net/credentials/education#DiplomaInfo"
+				}
+			}
+		},
+		"Attendant": {
+			"@id": "https://credentials-library.lacchain.net/credentials/education#Attendant",
+			"@context": {
+				"@version": 1.1,
+				"@protected": true,
+				"id": "@id",
+				"type": "@type",
+				"familyName": "http://schema.org/familyName",
+				"givenName": "http://schema.org/givenName",
+				"email": "http://schema.org/email"
+			}
+		},
+		"DiplomaInfo": {
+			"@id": "https://credentials-library.lacchain.net/credentials/education/redclara/diploma/v1#DiplomaInfo",
+			"@context": {
+				"@version": 1.1,
+				"@protected": true,
+				"id": "@id",
+				"type": "@type",
+				"title": "https://credentials-library.lacchain.net/credentials/education#title",
+				"category": "https://credentials-library.lacchain.net/credentials/education#category",
+				"modality": "https://credentials-library.lacchain.net/credentials/education#modality",
+				"url": "https://credentials-library.lacchain.net/credentials/education#url",
+				"issued": "",
+				"educationalInstitution": "",
+				"courseID": "",
+				"approved": "",
+				"grade": "",
+				"campusName": "",
+				"city": "",
+				"country": ""
+			}
+		}
+	}
+}
