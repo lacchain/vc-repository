@@ -35,9 +35,21 @@
 				"diploma": {
 					"@id": "https://credentials-library.lacchain.net/credentials/education#diploma",
 					"@type": "https://credentials-library.lacchain.net/credentials/education#DiplomaInfo"
-				}
+				},
+                "signers": {
+                    "@id": "https://credentials-library.lacchain.net/credentials/education#signers", 
+                    "@type": "https://credentials-library.lacchain.net/credentials/education#Signer", 
+                    "@container": "@graph"
+                }
 			}
 		},
+        "Signer": {
+            "@id": "https://credentials-library.lacchain.net/credentials/education#Signer",
+            "@context": {
+				"did": "@id",
+				"name": "http://schema.org/name",
+			}
+        },
 		"Attendant": {
 			"@id": "https://credentials-library.lacchain.net/credentials/education#Attendant",
 			"@context": {
@@ -47,7 +59,8 @@
 				"type": "@type",
 				"familyName": "http://schema.org/familyName",
 				"givenName": "http://schema.org/givenName",
-				"email": "http://schema.org/email"
+				"email": "http://schema.org/email",
+				"nationalId": "https://credentials-library.lacchain.net/credentials/education#nationalId"
 			}
 		},
 		"DiplomaInfo": {
@@ -58,17 +71,18 @@
 				"id": "@id",
 				"type": "@type",
 				"title": "https://credentials-library.lacchain.net/credentials/education#title",
+                "description": "https://credentials-library.lacchain.net/credentials/education#description",
 				"category": "https://credentials-library.lacchain.net/credentials/education#category",
 				"modality": "https://credentials-library.lacchain.net/credentials/education#modality",
 				"url": "https://credentials-library.lacchain.net/credentials/education#url",
-				"issued": "",
-				"educationalInstitution": "",
-				"courseID": "",
-				"approved": "",
-				"grade": "",
-				"campusName": "",
-				"city": "",
-				"country": ""
+				"issued": "http://schema.org/DateTime",
+				"educationalInstitution": "https://credentials-library.lacchain.net/credentials/education#educationalInstitution",
+				"courseID": "https://credentials-library.lacchain.net/credentials/education#courseID",
+				"approved": "https://credentials-library.lacchain.net/credentials/education#approved",
+				"grade": "https://credentials-library.lacchain.net/credentials/education#grade",
+				"campusName": "https://credentials-library.lacchain.net/credentials/education#campusName",
+				"city": "http://schema.org/City",
+				"country": "http://schema.org/addressCountry"
 			}
 		}
 	}

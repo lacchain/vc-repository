@@ -13,7 +13,7 @@
   "name": "Diploma Certificado Título y/o Grado", 
   "issuer": "did:lac:main:0x2ad758664e1bb647383c017683b97a527863e5e2", 
   "issuanceDate": "2022-05-31T14:21:29.369Z", 
-  "expirationDate": "2022-06-30T14:21:23.769Z",
+  "expirationDate": "2022-09-27T14:21:23.769Z",
   "trustedList": "0x4CE57b0010E7babA28b210Dc6C91ec8955f266C3", 
   "credentialSubject": {
     "id": "did:lac:main:0xf32c0476b8d2216ea853abe34d39ea08bb091c08",
@@ -22,11 +22,22 @@
       "givenName": "Carlos",
       "familyName": "Gonzalez",
       "email": "carlos.gonzalez@redclara.net",
-      "dni": "123456789"
+      "nationalId": "123456789"
     },
+    "signers": [{
+      "did": "did:lac:main:0x...",
+      "name": "Nombre del signer 1"
+    }, { 
+      "did": "did:lac:main:0x...",
+      "name": "Nombre del signer m"
+    }, { 
+      "did": "did:lac:main:0x...",
+      "name": "Nombre del signer n"
+    }],
     "diploma": { 
       "title": "titulo", 
-      "category": "categoria", 
+      "description": "descripción",
+      "category": "categoría", 
       "modality": "modalidad",
       "url": "https://url.com",
       "issued": "system_issued_date",
@@ -36,7 +47,7 @@
       "grade": "calificación",
       "campusName": "Nombre campus",
       "city": "ciudad",
-      "country": "pais"
+      "country": "país"
     }
   },
   "credentialStatus": {
