@@ -48,6 +48,7 @@
       "campusName": "Nombre campus",
       "city": "ciudad",
       "country": "país"
+      "educationalLevel": "3"
     }
   },
   "credentialStatus": {
