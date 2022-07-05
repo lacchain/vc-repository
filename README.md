@@ -1,14 +1,14 @@
 # Verifiable Credential Repository
 
 This repository contains a registry created by the
-LACChain ID Working Group for the purpose of maintaining a list of [Credential Schemes](https://www.w3.org/TR/vc-data-model/#contexts) (in JSON-LD format)
+LACChain ID Working Group for the purpose of maintaining a list of [Credential Schemas](https://www.w3.org/TR/vc-data-model/#contexts) (in JSON-LD format)
 for different credential types. Also, an example of the credential associated with each schema will be kept in this repository.
 
 ## Contributing to the Repository
 
 Use the standard fork, branch, and pull request workflow to propose new credential type.
 
-1. Add your VC Scheme to /schemes folder
+1. Add your VC Schema to /schemas folder
 2. Add your VC Example to /examples folder
 3. Edit credentials.md file to include your credential type information
 
