@@ -9,7 +9,7 @@
   #### Schema URL:
   [lacchain_redclara_diploma.json](./schemas/lacchain_redclara_diploma.json)
   #### Example:
-  [lacchain_academy.json](./examples/lacchain_redclara_diploma.json)
+  [lacchain_redclara_diploma.json](./examples/lacchain_redclara_diploma.json)
 
 ---
 
