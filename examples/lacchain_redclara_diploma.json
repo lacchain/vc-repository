@@ -50,12 +50,11 @@
       "country": "país",
       "recordID": "identificador de emisión",
       "hashQR": "https://url?<query_string>"
-
     }
   },
   "credentialStatus": {
     "id": "0x82F1f28e4EA6F8F41e7720853a2D2DD127c317E9", 
-    "type": "SmartContract"u
+    "type": "SmartContract"
   },
   "proof": [
     {
