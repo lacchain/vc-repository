@@ -82,7 +82,9 @@
 				"grade": "https://credentials-library.lacchain.net/credentials/education#grade",
 				"campusName": "https://credentials-library.lacchain.net/credentials/education#campusName",
 				"city": "http://schema.org/City",
-				"country": "http://schema.org/addressCountry"
+				"country": "http://schema.org/addressCountry",
+				"courseID": "https://credentials-library.lacchain.net/credentials/education#courseID",
+				"hashQR": "https://credentials-library.lacchain.net/credentials/education#hashQR"
 			}
 		}
 	}
