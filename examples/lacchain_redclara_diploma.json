@@ -26,13 +26,16 @@
     },
     "signers": [{
       "did": "did:lac:main:0x...",
-      "name": "Nombre del signer 1"
+      "name": "Nombre del signer 1",
+      "occupation": "Ocupación, posición o rol del signer 1"
     }, { 
       "did": "did:lac:main:0x...",
-      "name": "Nombre del signer m"
+      "name": "Nombre del signer m",
+      "occupation": "Ocupación, posición o rol del signer m"
     }, { 
       "did": "did:lac:main:0x...",
-      "name": "Nombre del signer n"
+      "name": "Nombre del signer n",
+      "occupation": "Ocupación, posición o rol del signer m"
     }],
     "diploma": { 
       "title": "titulo", 
@@ -40,7 +43,8 @@
       "category": "categoría", 
       "modality": "modalidad",
       "url": "https://url.com",
-      "issued": "system_issued_date",
+      "issued": "fecha de acreditación académica",
+      "issuance": "fecha de emisión de la credencial académica",
       "educationalInstitution": "institución académica",
       "courseID": "ID de curso de la institución académica",
       "approved": "booleano",

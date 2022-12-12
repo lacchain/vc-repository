@@ -48,6 +48,7 @@
             "@context": {
 				"did": "@id",
 				"name": "http://schema.org/name",
+				"occupation": "http://schema.org/Occupation"
 			}
         },
 		"Attendant": {
@@ -76,6 +77,7 @@
 				"modality": "https://credentials-library.lacchain.net/credentials/education#modality",
 				"url": "https://credentials-library.lacchain.net/credentials/education#url",
 				"issued": "http://schema.org/DateTime",
+				"issuance": "http://schema.org/DateTime",
 				"educationalInstitution": "https://credentials-library.lacchain.net/credentials/education#educationalInstitution",
 				"courseID": "https://credentials-library.lacchain.net/credentials/education#courseID",
 				"approved": "https://credentials-library.lacchain.net/credentials/education#approved",
